@@ -1,0 +1,136 @@
+/*全局字体*/
+@font-face {
+	font-family: AllFont;
+	src: url(https://alioss.xiamoqwq.com/font/emmmm.woff2);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+*:not([class*=icon]):not(i) {
+	font-family: AllFont !important
+}
+
+/*全局主体设置*/
+#root,
+.App,
+body,
+html {
+	min-height: 70vh;
+	margin: 0;
+	padding: 0;
+	margin-top: 1% !important
+}
+
+.chakra-ui-light {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+/*图标和按钮*/	
+.chakra-icon {
+	color: #ffb6c1 !important /*设置所有图标颜色*/
+}
+
+.chakra-stack button {
+	color: #fff !important /*设置按钮字体为白色*/
+}
+
+.chakra-ui-light .css-13c7rae {
+    color:#000 !important /*设置“更改语言”弹窗选项文本颜色*/
+}
+
+.css-1i5pcfv,
+.css-1otlekh {
+	background-color: #ffb6c1 !important /*设置下载按钮颜色*/
+}
+
+.chakra-stack.css-zf9m6f {
+	background-color: #444444 !important /*暗色模式下底部工具栏背景色*/
+}
+
+button.chakra-button.css-19sxzqs,
+button.chakra-button.css-1s44hm6,
+button.chakra-button.css-squyht,
+button.chakra-button.css-1ipdryz,
+button.chakra-button.css-1462zul,
+button.chakra-button.css-1468cli {
+	color: #000 !important /*设置页码块数字为黑色加强辨识度*/
+}
+
+/*顶部搜索框和公告栏背景*/
+.css-1k8tczx {
+	background-color: rgba(255,255,255,.8) !important /*设置搜索框背景色*/
+}
+
+.chakra-ui-light .go2072408551 {
+	background-color: #fff !important
+}
+
+.chakra-ui-dark .go2072408551 {
+	background-color: #363636 !important /*公告板颜色修复*/
+}
+
+/*标题栏*/
+.chakra-ui-light .chakra-breadcrumb {
+	background-color: rgba(255,255,255,.7) !important;
+	border-radius: 10px /*标题栏背景色和圆角*/
+}
+
+/*目录框*/
+.chakra-ui-light .main-box,
+.chakra-ui-light .readme-box {
+	background-color: rgba(255, 255, 255, .8) !important /*目录框背景色和透明度(亮)*/
+}
+
+.chakra-ui-dark .main-box,
+.chakra-ui-dark .readme-box {
+	background-color: rgba(50, 50, 50, .6) !important /*目录框背景色和透明度(暗)*/
+}
+
+.main-box,
+.readme-box {
+	border-radius: 12px !important
+}
+
+.readme-box {
+	box-shadow: unset !important /*目录圆角和阴影*/
+}
+
+/*底部*/
+.css-3m0ceo {
+	display: none !important /*隐藏页脚(自行选择)*/
+}
+
+footer {
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 1px
+}
+
+/*背景*/
+.chakra-ui-dark {
+	background-color: #555555 !important /*暗色模式背景色*/
+}
+
+.chakra-ui-light {
+	background-image: url(https://dev.iw233.cn/api.php?sort=pc);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:960px) {
+	.chakra-ui-light {
+		background-image: url(https://api.anosu.top/img/?sort=mp);
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/*背景图URL可自行替换，默认的不保证长期可用（问就是没钱）*/
