@@ -1,0 +1,103 @@
+<!--请将此放入head部分-->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!--引入字体源站-->
+<link rel="preconnect" href="https://vkceyugu.cdn.bspapp.com">
+<!--默认亮色（可选）-->
+<!--<script async id="default-theme" src="https://api.xhofe.top/js/alist-theme.js" theme="light"></script>-->
+
+<!--CSS部分-->
+<style type="text/css">
+/*全局字体*/
+@font-face {
+	font-family: AllFont;
+	src: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9fdf198e-c41d-406e-9267-1586587030db/39b58195-6aa1-4c82-a0de-b1d743239dac.woff2);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+*:not([class*=icon]):not(i) {
+	font-family: AllFont !important
+}
+
+/*全局主体设置*/
+#root,
+body,
+html {
+	min-height: 70vh;
+	margin: 0;
+	padding: 0;
+	margin-top: 1% !important
+}
+
+.hope-ui-light {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+/*图标和按钮*/   
+.hope-icon {
+    color: #ffb6c1 !important /*设置所有图标颜色*/
+}
+
+.hope-button {
+    color: #fff !important; /*设置按钮字体为白色*/
+    background-color: #ffb6c1 !important /*设置按钮背景为粉色*/
+}
+
+
+/*标题栏*/
+.hope-ui-light .hope-breadcrumb__list {
+	background-color: rgba(255,255,255,.7) !important;
+	border-radius: 10px /*标题栏背景色和圆角*/
+}
+
+/*目录框*/
+.hope-ui-light .obj-box,
+.hope-ui-light .hope-c-PJLV-ikSuVsl-css {
+	background-color: rgba(255, 255, 255, .8) !important /*目录框背景色和透明度(亮)*/
+}
+
+.chakra-ui-dark .obj-box,
+.chakra-ui-dark .hope-c-PJLV-ikSuVsl-css {
+	background-color: rgba(50, 50, 50, .6) !important /*目录框背景色和透明度(暗)*/
+}
+
+/*底部*/
+.footer {
+	display: none !important /*隐藏页脚(自行选择)*/
+}
+
+footer {
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 1px
+}
+
+/*背景*/
+.hope-ui-dark {
+	background-color: #555555 !important /*暗色模式背景色*/
+}
+
+.hope-ui-light {
+	background-image: url(https://dev.iw233.cn/api.php?sort=pc);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:960px) {
+	.hope-ui-light {
+		background-image: url(https://api.anosu.top/img/?sort=mp);
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/*背景图URL可自行替换，默认的不保证长期可用（问就是没钱）*/
+</style>
