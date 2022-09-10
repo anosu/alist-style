@@ -42,6 +42,11 @@ html {
     color:#000 !important /*设置“更改语言”弹窗选项文本颜色*/
 }
 
+.chakra-ui-light button#menu-button-32,
+.chakra-ui-light .css-ddkw9a button {
+    color: #000 !important
+}
+
 .css-1i5pcfv,
 .css-1otlekh {
 	background-color: #ffb6c1 !important /*设置下载按钮颜色*/
