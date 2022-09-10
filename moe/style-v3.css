@@ -61,12 +61,6 @@ html {
 	display: none !important /*隐藏页脚(自行选择)*/
 }
 
-footer {
-	line-height: 50px;
-	text-align: center;
-	letter-spacing: 1px
-}
-
 /*背景*/
 .hope-ui-dark {
 	background-color: #555555 !important /*暗色模式背景色*/
