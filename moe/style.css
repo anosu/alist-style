@@ -126,7 +126,7 @@ footer {
 }
 
 .chakra-ui-light {
-	background-image: url(https://dev.iw233.cn/api.php?sort=pc);
+	background-image: url(https://api.anosu.top/api/?sort=pc);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -135,7 +135,7 @@ footer {
 
 @media screen and (max-width:960px) {
 	.chakra-ui-light {
-		background-image: url(https://api.anosu.top/img/?sort=mp);
+		background-image: url(https://api.anosu.top/api/?sort=mp);
 		background-position: center;
 		background-attachment: fixed;
 		background-size: cover;
