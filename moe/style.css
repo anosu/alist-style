@@ -52,6 +52,10 @@ button.chakra-button.css-taj3dd {
 	color: #000 !important
 }
 
+.chakra-ui-light p.chakra-text.css-18h3lje {
+    color: dimgrey /*设置视频选项卡文本颜色*/
+}
+
 .css-1i5pcfv,
 .css-1otlekh {
 	background-color: #ffb6c1 !important /*设置下载按钮颜色*/
