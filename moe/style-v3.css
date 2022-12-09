@@ -30,6 +30,10 @@
 .hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-c-PJLV.hope-c-PJLV-iikaotv-css svg{
     color: #ffb6c1 !important
 }
+.hope-c-mHASU-kFfbLQ-colorScheme-info[data-focus] {
+    border-color: #ffb6c1 !important;
+    box-shadow: 0 0 0 2px #ffcdd4 !important
+}
 .hope-ui-light .hope-c-mHASU-kFfbLQ-colorScheme-info svg {
     color: white !important
 }
