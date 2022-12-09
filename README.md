@@ -4,17 +4,30 @@
 
 ## 引入
 ```html
+<!-- V2 -->
 <link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
+
+<!-- V3 -->
+<link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style-v3.css" rel="stylesheet" type="text/css" />
 ```
 或者
 ```html
+<!-- V2 -->
 <link href="https://fastly.jsdelivr.net/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
+
+<!-- V3 -->
+<link href="https://fastly.jsdelivr.net/gh/anosu/alist-style@main/moe/style-v3.css" rel="stylesheet" type="text/css" />
 ```
 或者
 ```html
+<!-- V2 -->
+<link rel="preconnect" href="https://vkceyugu.cdn.bspapp.com">
+<link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
+
+<!-- V3 -->
 <link rel="preconnect" href="https://vkceyugu.cdn.bspapp.com">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
-<link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
+<link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style-v3.css" rel="stylesheet" type="text/css" />
 ```
 放两张预览图以供参考
 * PC:
