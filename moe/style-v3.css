@@ -11,23 +11,6 @@
 	font-family: AllFont !important
 }
 
-/*全局主体设置*/
-#root,
-body,
-html {
-	min-height: 70vh;
-	margin: 0;
-	padding: 0;
-	margin-top: 1% !important
-}
-
-.hope-ui-light {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-}
-
 /*图标和按钮*/   
 .hope-icon {
     color: #ffb6c1 !important /*设置所有图标颜色*/
@@ -38,27 +21,72 @@ html {
     background-color: #ffb6c1 !important /*设置按钮背景为粉色*/
 }
 
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-c-PJLV.hope-c-PJLV-iikaotv-css {
+	background-color: #202425 !important
+}
+
+.hope-c-PJLV-ijzCLcW-css,
+.hope-c-mHASU-kFfbLQ-colorScheme-info,
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-c-PJLV.hope-c-PJLV-iikaotv-css svg{
+    color: #ffb6c1 !important
+}
+.hope-ui-light .hope-c-mHASU-kFfbLQ-colorScheme-info svg {
+    color: white !important
+}
+.hope-ui-dark .hope-c-mHASU-kFfbLQ-colorScheme-info svg {
+    color: #202425 !important
+}
+
+.left-toolbar-box svg:hover,
+.center-toolbar svg:hover {
+	color:  white !important;
+	background-color: #ffb6c1
+}
+
+.hope-c-PJLV-icHSmvX-css {
+    border-radius: 5px
+}
 
 /*标题栏*/
 .hope-ui-light .hope-breadcrumb__list {
-	background-color: rgba(255,255,255,.7) !important;
-	border-radius: 10px /*标题栏背景色和圆角*/
+	border-radius: 10px !important /*标题栏圆角*/
+}
+
+/*搜索框*/
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css {
+	background-color: rgba(255,255,255, .7)
+}
+.hope-c-dhzjXW.hope-c-XNyZK.hope-c-PJLV.hope-c-PJLV-ijhzIfm-css:hover {
+	color: #ffb6c1 !important;
+	background: none
+}
+.hope-ui-light #hope-modal-cl-30 {
+	background-color: rgba(250,250,250,.75);
+	backdrop-filter: blur(5px)
+}
+
+/*公告板*/
+.hope-notification__list.hope-c-UdTFD.hope-c-UdTFD-jEXiZO-placement-top-end.hope-c-PJLV.hope-c-PJLV-ijhzIfm-css {
+	max-width: fit-content
 }
 
 /*目录框*/
+.hope-ui-light .hope-breadcrumb__list,
 .hope-ui-light .obj-box,
-.hope-ui-light .hope-c-PJLV-ikSuVsl-css {
-	background-color: rgba(255, 255, 255, .8) !important /*目录框背景色和透明度(亮)*/
-}
-
-.chakra-ui-dark .obj-box,
-.chakra-ui-dark .hope-c-PJLV-ikSuVsl-css {
-	background-color: rgba(50, 50, 50, .6) !important /*目录框背景色和透明度(暗)*/
+.hope-ui-light .hope-c-PJLV-ikSuVsl-css,
+.hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+	background-color: rgba(255, 255, 255, .8) !important /*标题栏、目录框和工具栏背景色和透明度(亮)*/
 }
 
 /*底部*/
 .footer {
 	display: none !important /*隐藏页脚(自行选择)*/
+}
+
+#footer {
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 1px
 }
 
 /*背景*/
@@ -67,7 +95,7 @@ html {
 }
 
 .hope-ui-light {
-	background-image: url(https://api.anosu.top/api/?sort=pc);
+	background-image: url(https://dev.iw233.cn/api.php?sort=pc);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -76,7 +104,7 @@ html {
 
 @media screen and (max-width:960px) {
 	.hope-ui-light {
-		background-image: url(https://api.anosu.top/api/?sort=mp);
+		background-image: url(https://moe.anosu.top/api/?sort=mp);
 		background-position: center;
 		background-attachment: fixed;
 		background-size: cover;
