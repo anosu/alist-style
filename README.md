@@ -10,7 +10,7 @@
 <!-- V3 -->
 <link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style-v3.css" rel="stylesheet" type="text/css" />
 ```
-或者
+或者使用jsDelivr
 ```html
 <!-- V2 -->
 <link href="https://fastly.jsdelivr.net/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
