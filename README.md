@@ -3,15 +3,15 @@
 * 我的样式只是小修小改，修改的部分注有详细说明，可以自行更改、添加或删除
 
 ## 引入
-```
+```html
 <link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
 ```
 或者
-```
+```html
 <link href="https://fastly.jsdelivr.net/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
 ```
 或者
-```
+```html
 <link rel="preconnect" href="https://vkceyugu.cdn.bspapp.com">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
 <link href="https://jsd.cdn.zzko.cn/gh/anosu/alist-style@main/moe/style.css" rel="stylesheet" type="text/css" />
