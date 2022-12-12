@@ -64,8 +64,8 @@
 	color: #ffb6c1 !important;
 	background: none
 }
-.hope-ui-light #hope-modal-cl-30 {
-	background-color: rgba(250,250,250,.75);
+.hope-ui-light [id*="hope-modal-cl"] {
+	background-color: rgba(250,250,250,.75) !important;
 	backdrop-filter: blur(5px)
 }
 
