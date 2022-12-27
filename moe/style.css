@@ -1,16 +1,3 @@
-/*全局字体*/
-@font-face {
-	font-family: AllFont;
-	src: url(https://note.youdao.com/yws/api/personal/file/WEB20a7a2a0a159e8dc814fcf17318425a1?method=download&inline=true&shareKey=c3e011c6a7fb3ed20da0a2be76a27644);
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap
-}
-
-*:not([class*=icon]):not(i) {
-	font-family: AllFont !important
-}
-
 /*全局主体设置*/
 #root,
 .App,
