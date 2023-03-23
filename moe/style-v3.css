@@ -44,6 +44,9 @@
 }
 
 /*搜索框*/
+.hope-c-PJLV-ihYBJPK-css{
+	display:none !important;
+}
 .hope-ui-light .hope-c-PJLV-ikEIIxw-css {
 	background-color: rgba(255,255,255, .7)
 }
@@ -51,7 +54,7 @@
 	color: #ffb6c1 !important;
 	background: none
 }
-.hope-ui-light [id*="hope-modal-cl"] {
+.hope-ui-light section[id*="hope-modal-cl"] {
 	background-color: rgba(250,250,250,.75) !important;
 	backdrop-filter: blur(5px)
 }
@@ -86,7 +89,7 @@
 }
 
 .hope-ui-light {
-	background-image: url(https://dev.iw233.cn/api.php?sort=pc);
+	background-image: url(https://moe.anosu.top/api/?sort=pc);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -96,11 +99,5 @@
 @media screen and (max-width:960px) {
 	.hope-ui-light {
 		background-image: url(https://moe.anosu.top/api/?sort=mp);
-		background-position: center;
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
 	}
 }
-
-/*背景图URL可自行替换，默认的不保证长期可用（问就是没钱）*/
