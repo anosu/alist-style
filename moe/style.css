@@ -117,7 +117,7 @@ footer {
 }
 
 .chakra-ui-light {
-	background-image: url(https://api.anosu.top/api/?sort=pc);
+	background-image: url(https://moe.jitsu.top/api/?sort=pc);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -126,7 +126,7 @@ footer {
 
 @media screen and (max-width:960px) {
 	.chakra-ui-light {
-		background-image: url(https://api.anosu.top/api/?sort=mp);
+		background-image: url(https://moe.jitsu.top/api/?sort=mp);
 		background-position: center;
 		background-attachment: fixed;
 		background-size: cover;
