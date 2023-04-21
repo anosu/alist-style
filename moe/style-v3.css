@@ -89,7 +89,7 @@
 }
 
 .hope-ui-light {
-	background-image: url(https://moe.anosu.top/api/?sort=pc);
+	background-image: url(https://moe.jitsu.top/api/?sort=pc);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -98,6 +98,6 @@
 
 @media screen and (max-width:960px) {
 	.hope-ui-light {
-		background-image: url(https://moe.anosu.top/api/?sort=mp);
+		background-image: url(https://moe.jitsu.top/api/?sort=mp);
 	}
 }
